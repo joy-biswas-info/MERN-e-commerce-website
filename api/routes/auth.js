@@ -26,11 +26,11 @@ router.post("/login",async(req,res)=>{
         const hasedPassword =CryptoJS.AES.decrypt(user.password,process.env.PASS_SEC);
         const password = hasedPassword.toString(CryptoJS.enc.Utf8);
         password ==! req.body.password &&res.status(401).json("Wrong credentials!");
-        
+
 
         res.status(200).json(user);
     }catch(err){
-        res.status(500).json("Nothing Found");
+        res.status(500).json(err);
     }
 })
 
