@@ -131,6 +131,7 @@ const Footer = () => {
                     <PaymentOutlined style={{marginRight:'10px'}} />
                     <PaidOutlined style={{marginRight:'10px'}} />
                     <PointOfSaleOutlined style={{marginRight:'10px'}} />
+                    
                 </ContactItem>
             </Right>
         </Container>
