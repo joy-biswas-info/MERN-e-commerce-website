@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 import { Facebook, Instagram, Mail, PaidOutlined, PaymentOutlined, Phone, Pinterest, PointOfSaleOutlined, Room, YouTube } from "@mui/icons-material";
+import { teal } from "@mui/material/colors";
 
 const Container= styled.div`
     display: flex;
@@ -128,10 +129,9 @@ const Footer = () => {
                     <Phone style={{marginRight:'10px'}} />+8801845727676
                 </ContactItem>
                 <ContactItem>
-                    <PaymentOutlined style={{marginRight:'10px'}} />
+                    <PaymentOutlined style={{marginRight:'10px'}}/>
                     <PaidOutlined style={{marginRight:'10px'}} />
-                    <PointOfSaleOutlined style={{marginRight:'10px'}} />
-                    
+                    <PointOfSaleOutlined style={{marginRight:'10px'}} />                    
                 </ContactItem>
             </Right>
         </Container>
